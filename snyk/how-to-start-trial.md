@@ -13,9 +13,9 @@ To get started:
 
 1. Log in to your Snyk account at [https://app.snyk.io](https://app.snyk.io) and go to the Settings:
 
-![How to start Snyk trial step 1](/assets/images/how-to-start-trial-1.png)
+![How to start Snyk trial step 1](/assets/images/snyk/how-to-start-trial-1.png)
 
 
 2. Click the Start trial button and you should be good to go!
 
-![How to start Snyk trial step 2](/assets/images/how-to-start-trial-2.png)
+![How to start Snyk trial step 2](/assets/images/snyk/how-to-start-trial-2.png)
