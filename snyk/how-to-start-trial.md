@@ -11,7 +11,7 @@ There are certain features (*generally related to implementation*) that are not 
 
 To get started:
 
-1. Log in to your Snyk account at https://app.snyk.io and go to the Settings:
+1. Log in to your Snyk account at [https://app.snyk.io](https://app.snyk.io) and go to the Settings:
 
 ![How to start Snyk trial step 1](/assets/images/how-to-start-trial-1.png)
 
