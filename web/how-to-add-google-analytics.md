@@ -17,9 +17,11 @@ Hi! This is the minimal way to add Google Analytics to your standard GitHub Page
 
 1. Create the analytics.html file with the tracking code snippet under an _includes folder
 2. Reference the above in your layout files by adding the following at the end of the <head> block:
+{% raw %}
 ``` html
-"{% include analytics.html %}"
+{% include analytics.html %}
 ```
+{% endraw %}
 
 ## Wrap up
 
