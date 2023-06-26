@@ -1,3 +1,8 @@
+---
+layout: snyk
+title: How to start a trial with Snyk
+---
+
 # How to start a trial with Snyk
 
 Hi! To get started, you can create a free Snyk account by following the guide here: [Getting Started](https://docs.snyk.io/getting-started/quickstart/create-a-snyk-account)
