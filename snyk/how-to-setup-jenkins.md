@@ -40,14 +40,13 @@ If you don't already have a Snyk account, you can get one here: [Getting Started
 > Manage Jenkins > Manage Credentials > System > Global credentials > Add Credentials
 
 - Add a ```Secret text```, name it ```SNYK_TOKEN``` in the ID field and enter the token into the Secret field
-  - You get the token from the Snyk UI, this is what your Jenkins CLI will be using.
+  - You get the token from the Snyk UI, this is what your Snyk CLI will be using.
     - I recommend creating a service account for this, under Settings (*requires a Snyk Enterprise License*)
     - Alternatively, you can use your account's API token, under your Account Settings
 
 2. Next, we need to enable Snyk Code for your Snyk Organization if not already enabled:
 > Settings > Snyk Code > Enable Snyk Code
-
-Note, this is not enabled by default because Snyk will be accessing your 1st-party code here in order to scan it for security vulnerabilities
+- Note, this is not enabled by default because Snyk will be accessing your 1st-party code here in order to scan it for security vulnerabilities
 
 ## Setup Jenkins Job
 
@@ -73,9 +72,9 @@ Follow the steps below to give this a go:
 ![Jenkins Pipeline Script from SCM](/assets/images/snyk/how-to-setup-jenkins-3.png)
 
 Refer to this example Jenkinsfile to create your own definition:
-https://github.com/billytronics/goof/blob/jenkins/Jenkinsfile
+[Example Jenkinsfile with Snyk](https://github.com/billytronics/goof/blob/jenkins/Jenkinsfile)
 
-## Run Jenkins job & Verify HTML Reports
+## Run Jenkins Job & Verify HTML Reports
 
 If your job runs successfully and is able to produce the below reports then congrats, you have made it!
 Verify the HTML reports look like the below:
